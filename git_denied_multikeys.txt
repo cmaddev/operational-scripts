@@ -1,0 +1,5 @@
+eval "$(ssh-agent -s)"
+cd ~
+cd .ssh/
+ssh-add STUDY_personal
+ssh-add -l

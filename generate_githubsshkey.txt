@@ -1,0 +1,2 @@
+ssh-keygen -t rsa -b 4096 -C "seu_email@exemplo.com" -f STUDY_personal
+cat ~/.ssh/STUDY_personal.pub | clip
